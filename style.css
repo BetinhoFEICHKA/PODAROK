@@ -1,0 +1,28 @@
+body {
+	background-image: url("Happy_birthday.jpg");
+}
+.present {
+	position: absolute;
+	width: 300px;
+	top: -100%;
+	visibility: hidden; 
+	left: 50%;
+	transform: translate(-50%);
+	background-color: skyblue;
+	padding: 40px;
+	transition-duration: 2s;
+	border-radius: 20px;
+}
+.present.opened {
+	visibility: visible;
+	top: 136px;
+}
+.btn {
+	margin: auto;
+	margin-top: 200px;
+	display: block;
+	width: 100px;
+	height: 70px;
+	border-radius: 25px;
+	background-color: skyblue;
+}
